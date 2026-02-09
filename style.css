@@ -171,6 +171,49 @@ html{
     font-size: clamp(var(---number-14), 4vw, var(---number-20));
 }
 
+.MeetUs{
+    display: grid;
+    grid-template-columns: 1fr repeat(autofit, minmax(40rem, 1fr));
+    justify-content: center;
+    padding: 7.4rem;
+    border-top: 1px solid var(---primary-color);
+    border-radius: var(---number-10);
+}
+
+.MeetUs__title{
+    grid-column: 1 / 4;
+    text-align: center;
+    padding: var(---number-16);
+    font-family: "Urbanist";
+    font-size: clamp(var(---number-20), 4vw, var(---number-24));
+}
+
+.MeetUs__Content{
+    grid-column: 1 / 3;
+    padding: var(---number-10);
+    h3{
+        font-family: "Urbanist";
+        font-size: clamp(var(---number-16), 4vw, var(---number-20))
+    }
+    p{
+        max-width: 70rem;
+        margin-top: 0.8rem;
+        text-align: justify;
+        font-family: "Poppins";
+        font-size: clamp(var(---number-14), 4vw, var(---number-20));
+    }
+}
+
+.MeetUs img{
+    max-width: 40rem;
+    max-height: 70rem;
+    border-radius: var(---number-10);
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
 
 
 img{
