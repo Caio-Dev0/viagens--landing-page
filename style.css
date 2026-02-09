@@ -252,7 +252,26 @@ html{
     font-family: "Poppins";
 }
 
+.footer{
+    width: 100%;
+    height: 10dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(---number-10);
+    background-color: var(---secondary-color);
+    color: var(---primary-color);
+    font-family: "Poppins";
+    font-size: clamp(var(---number-10), 4vw, var(---number-14));
+    text-align: center;
 
+    a{
+        color: var(---primary-color);
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: var(---number-10);
+    }
+}
 
 
 
