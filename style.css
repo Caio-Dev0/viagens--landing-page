@@ -225,6 +225,36 @@ html{
 }
 
 
+.Advice{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: var(---number-16);
+    color: var(---secondary-color);
+    background-color: var(---primary-color);
+    gap: var(---number-16);
+}
+
+.Advice__Title{
+    text-align: center;
+    font-family: "Urbanist";
+    font-size: clamp(var(---number-20), 4vw, var(---number-24));
+}
+
+.Advice__card{
+    max-width: 40rem;
+    padding: var(---number-16);
+    margin-top: var(---number-10);
+    border-radius: var(---number-10);
+    background-color: var(---secondary-color);
+    color: var(---primary-color);
+    font-size: clamp(var(---number-14), 4vw, var(---number-20));
+    font-family: "Poppins";
+}
+
+
+
+
 
 
 
